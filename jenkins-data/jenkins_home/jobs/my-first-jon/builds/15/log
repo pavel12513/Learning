@@ -1,0 +1,7 @@
+Started by user [8mha:////4C/kgLhmG5iFeoimRBWzd8QS9/4zlx5dKAEjL0jGN+LdAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9gsSy1BwAPo0KFcAAAAA=[0mpavel
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/my-first-jon
+[my-first-jon] $ /bin/sh -xe /tmp/jenkins17217481315969741199.sh
++ echo Hello, Tatiana Akhanov
+Hello, Tatiana Akhanov
+Finished: SUCCESS
