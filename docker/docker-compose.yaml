@@ -1,0 +1,15 @@
+version: '3'
+services:
+  Prometheus:
+    container_name: prometheus
+    image: prom/prometheus:latest
+    ports:
+      - "9090:9090"
+    volumes:
+      - "$PWD/prometheus:/etc/prometheus"
+    command:
+      - --config.file=/etc/prometheus/prometheus.yml
+    networks:
+      - net
+networks:
+  net:
