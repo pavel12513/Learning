@@ -1,6 +1,12 @@
 FROM centos
 
+RUN sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-Linux-*
+
+RUN sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-Linux-*
+
 RUN yum -y install openssh-server
+
+RUN yum -y install passwd
 
 RUN useradd remote_user && \
   echo "1234" | passwd remote_user --stdin && \
@@ -12,6 +18,6 @@ COPY remote-key.pub /home/remote_user/.ssh/authorized_keys
 RUN chown remote_user:remote_user -R /home/remote_user/.ssh/ && \
     chmod 600 /home/remote_user/.ssh/authorized_keys
 
-RUN /usr/bin/sshd-keygen
+RUN ssh-keygen -A
 
 CMD /usr/sbin/sshd -D
