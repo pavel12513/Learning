@@ -58,3 +58,16 @@ whoami
 exit
 ansible
 exit
+cd $HOME
+pwd
+ls -la
+touch ricatdo1234
+ls -la
+ls ricatdo1234 
+ls -la
+exit
+cd $HOME/ansible/
+exit
+cd $HOME/ansible/
+ls -la
+exit
