@@ -54,3 +54,7 @@ yum install ping
 exit
 ssh remote_user@remote-host
 exit
+whoami
+exit
+ansible
+exit
