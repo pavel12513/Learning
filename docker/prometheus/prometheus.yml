@@ -13,6 +13,10 @@ scrape_configs:
     static_configs:
       - targets:
           - host.docker.internal:9090
+  - job_name: local_host_python
+    static_configs:
+      - targets:
+          - host.docker.internal:8000
   - job_name: My_Linux_host
     metrics_path: /metrics
     static_configs:
