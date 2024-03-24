@@ -23,6 +23,11 @@ RUN yum -y install epel-release && \
     pip3 install --upgrade pip && \
     pip3 install awscli
 
-RUN ssh-keygen -A
+
+RUN /usr/bin/ssh-keygen -A
+
+EXPOSE 22
+
+RUN rm -rf /run/nologin
 
 CMD /usr/sbin/sshd -D

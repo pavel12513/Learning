@@ -71,3 +71,30 @@ exit
 cd $HOME/ansible/
 ls -la
 exit
+cd $HOME
+ls -la
+ls -la
+ls ansible/
+exit
+cd $HOME
+cd ansible/
+ls -la
+pwd
+ls -la
+cat hosts 
+ansible -i hosts -m ping
+ansible -i hosts -m ping test1
+ssh remote-host@remote_user
+ssh
+ssh remote_user@remote-host
+exit
+cd $HOME
+ssh-keygen -R remote-host
+exit
+cd $HOME
+cd ansible/
+ls -la
+cat hosts 
+ansible -i hosts -m ping
+ansible -i hosts -m ping test1
+exit
