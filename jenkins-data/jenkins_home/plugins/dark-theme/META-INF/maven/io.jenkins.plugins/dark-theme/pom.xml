@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.jenkins.plugins</groupId>
   <artifactId>dark-theme</artifactId>
-  <version>416.v535839b_c4e88</version>
+  <version>439.vdef09f81f85e</version>
   <packaging>hpi</packaging>
   <name>Dark Theme</name>
   <description>The Jenkins Plugins Parent POM Project</description>
@@ -25,7 +25,7 @@
   <scm>
     <connection>scm:git:https://github.com/jenkinsci/dark-theme-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/dark-theme-plugin.git</developerConnection>
-    <tag>535839bc4e8881fc0cda2bc7de438699ebfb986d</tag>
+    <tag>def09f81f85efd5a668a964f5a524bf213cfb4c0</tag>
     <url>https://github.com/jenkinsci/dark-theme-plugin</url>
   </scm>
   <distributionManagement>
